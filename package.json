@@ -1,14 +1,16 @@
 {
-  "name": "pdfkit-invoice",
+  "name": "mqtt_practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "broker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "pdfkit": "^0.9.1"
+    "mosca": "^2.8.3",
+    "mqtt": "^3.0.0"
   }
 }
